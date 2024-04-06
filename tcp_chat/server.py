@@ -16,6 +16,7 @@ SERVER.bind(ADDR)
 
 def handle_client(conn, addr):
     ''' Handles threads untill the msg is `DISCONNECT` '''
+
     print("[NEW CONNECTION] {} CONNECTED".format(addr))
     connected = True
 
